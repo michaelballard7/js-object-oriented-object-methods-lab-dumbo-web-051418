@@ -22,4 +22,6 @@ function BoardMember(name, homeState, training){
   this.sayHi = function(){
     
     let message = `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+    return message
+    
 }
